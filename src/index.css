@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font for footer */
+  @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+/* font for footer */
+
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
+.about .text-custom{
+  font-size: 10.39px;
+}
+
+.banner{
+  background: url(/src/assets/imgs/banner.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
